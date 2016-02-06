@@ -1,3 +1,6 @@
+# Set Locale to English to avoid problems with days names
+Sys.setlocale("LC_ALL","English")
+
 # Load data if not present in the working dir
 # We use a common code for all plots that loads the data into a variable  
 # called power_consumption
